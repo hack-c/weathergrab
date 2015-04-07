@@ -4,10 +4,8 @@
 ################[ 4/7/2015                            ]################
 #######################################################################
 
-# inspiration: http://blue.for.msu.edu/lab-notes/NOAA_0.1-1/NOAA-ws-data.pdf
-
-# library for plotting
-library("rgdal")
+# inspiration and most of the code from http://blue.for.msu.edu/lab-notes/NOAA_0.1-1/NOAA-ws-data.pdf
+# by Paul L. Delamater, Andrew O. Finley, and Chad Babcock
 
 # state and year to download from
 state <- "CO"
