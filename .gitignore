@@ -1,3 +1,5 @@
 documentation/
 data/raw/*
 
+data/csv/*
+data/stations.csv
