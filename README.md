@@ -25,3 +25,26 @@ To get the data, run
 If you like, edit the top two lines of the script to get the state and year of your choosing.  
 
 The other script, `print_station_granularity.sh`, uses that data to find how frequently each station takes a temperature reading.
+
+ASOS Stations
+-------------
+The following `CALL WBAN` ASOS station-pairs are in Colorado:  
+
+```
+ALS 23061
+DRO 93005
+LHX 23067
+PUB 93058
+TAD 23070
+COS 93037
+LIC 93010
+APA 93067
+LXV 93009
+EEO 94050
+ASE 93073
+AKO 24015
+GJT 23066
+MTJ 93013
+CEZ 93069
+CAG 24046
+```
