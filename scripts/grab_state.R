@@ -74,6 +74,7 @@ system("gunzip -r data/raw", intern=FALSE, ignore.stderr=TRUE)
 write("reading in station data and preprocessing...", stdout())
 write(" ", stdout())
 files <- list.files("data/raw/")
+# this next bit refers to the PDF documenting the data format. very brittle, let's hope they don't change it
 column.widths <- c(4,6,5,4,2,2,2,2,1,6,7,5,5,5,4,3,1,1,4,1,5,1,1,1,6,1,1,1,5,1,5,1,5,1)
 stations <- as.data.frame(matrix(NA, length(files), 6))
 names(stations) <- c("USAFID", "WBAN", "YR", "LAT", "LONG", "ELEV")
